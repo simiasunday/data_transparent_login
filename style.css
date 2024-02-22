@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/dali.jpg);
+  background-size: cover;
+}
+
+.login {
+  margin: auto;
+  margin-top: 100px;
+  width: 30%;
+  border-bottom: 5px solid yellowgreen;
+  margin-bottom: 50px;
+}
+
+form,
+fieldset {
+  border: none;
+  width: 80%;
+  margin: auto;
+  padding: 0.6rem;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 30%;
+  margin-bottom: 0.3rem;
+  padding: 0.7rem;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid greenyellow;
+  color: white;
+}
+
+#email::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: 1rem;
+}
+
+#password::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: 1rem;
+}
+
+button {
+  background-color: transparent;
+  border-color: yellowgreen;
+  color: white;
+  border-radius: 0, 5px;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  width: 30%;
+}
